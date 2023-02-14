@@ -9,6 +9,6 @@
 
 В этом проекте были использованы технологии: grid и flex
 
-**Ссылка на проект**
+**Ссылка**
 
 https://s-bezrukov.github.io/russian-travel/index.html
