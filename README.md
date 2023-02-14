@@ -11,4 +11,4 @@
 
 **Ссылка на проект**
 
-https://s-bezrukov.github.io/russian-travel /
+https://s-bezrukov.github.io/russian-travel/index.html
