@@ -1,5 +1,6 @@
 .footer__item {
     padding-bottom: 0;
+    padding-right: 18px;
 }
 
 @media screen and (max-width: 700px) {
