@@ -1,20 +1,25 @@
 .place__description {
-    min-width: 240px;
-    max-width: 484px;
-    width: 100%;
-    grid-area: text;
-    margin: 0;
-    padding: 0;
+  max-width: 484px;
+  width: 100%;
+  grid-area: text;
+  margin: 0;
+  padding: 0;
 }
 
 @media screen and (max-width: 1279px) {
+<<<<<<< HEAD
     .place__description {
         max-width: 456px;
     }
+=======
+  .place__description {
+    max-width: 456px;
+  }
+>>>>>>> gh-pages
 }
 
 @media screen and (max-width: 767px) {
-    .place__description {
-        max-width: 100%;
-    }
-}
+  .place__description {
+    max-width: 100%;
+  }
+} 

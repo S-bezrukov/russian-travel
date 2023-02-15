@@ -1,15 +1,35 @@
 .header__lang-link {
+<<<<<<< HEAD
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
     color: #FFFFFF;
     text-decoration: unset;
     cursor: pointer;
+=======
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #ffffff;
+  text-decoration: unset;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+.header__lang-link:not(:hover) {
+  opacity: 1;
+  transition: 0.8s;
+>>>>>>> gh-pages
 }
 
 @media screen and (max-width: 767px) {
-    .header__lang-link {
-        font-size: 18px;
-        line-height: 20px;
-    }
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

@@ -1,12 +1,12 @@
 .place__website {
-    min-width: 240px;
-    width: 100%;
-    grid-area: website;
-    font-size: 18px;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+  min-width: 240px;
+  width: 100%;
+  grid-area: website;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
