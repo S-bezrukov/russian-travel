@@ -14,8 +14,6 @@
   }
 }
 
-<<<<<<< HEAD
-=======
 @media screen and (max-width: 1190px) {
   .place__image {
     max-width: 410px;
@@ -58,7 +56,6 @@
   }
 } 
 
->>>>>>> gh-pages
 @media screen and (max-width: 767px) {
   .place__image {
     max-width: calc(100% + 32px);

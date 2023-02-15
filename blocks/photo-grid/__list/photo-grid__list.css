@@ -1,40 +1,4 @@
 .photo-grid__list {
-<<<<<<< HEAD
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    padding-top: 92px;
-    padding-bottom: 12px;
-}
-
-@media screen and (max-width: 1279px) {
-.photo-grid__list {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 14px;
-  }   
-}
-
-@media screen and (max-width: 1023px) {
-.photo-grid__list {
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 16px;
-    padding-top: 88px;
-    padding-bottom: 16px;
-  }   
-}
-
-@media screen and (max-width: 767px) {
-.photo-grid__list {
-    grid-template-columns: repeat(1, 1fr);
-    grid-gap: 12px;
-    padding-top: 64px;
-    padding-bottom: 14px;
-  }   
-}
-=======
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 16px;
@@ -66,4 +30,3 @@
     padding-top: 64px;
   }
 }
->>>>>>> gh-pages
