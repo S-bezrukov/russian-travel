@@ -1,5 +1,4 @@
 .place__description {
-  min-width: 240px;
   max-width: 484px;
   width: 100%;
   grid-area: text;
@@ -17,4 +16,4 @@
   .place__description {
     max-width: 100%;
   }
-}
+} 

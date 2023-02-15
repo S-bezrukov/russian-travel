@@ -4,6 +4,17 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 112%;
+  opacity: 1;
+}
+
+.footer__link:hover {
+  opacity: 0.8;
+  transition: 0.8s;
+}
+
+.footer__link:not(:hover) {
+  opacity: 1;
+  transition: 0.8s;
 }
 
 @media screen and (max-width: 700px) {

@@ -1,35 +1,28 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./pages/index.css">
   <title>Путешествия по России</title>
 </head>
-
 <body class="page">
-
   <div class="page__container">
-
     <header class="header">
       <a href="#" class="header__logo-link"><img src="./images/header-logo.svg" alt="Логотип" class="logo logo_place_header"></a>
       <ul class="header__langs-links">
-        <li class="header__item"><a href="#" class="header__lang-link active">Ru</a></li>
+        <li class="header__item"><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
         <li class="header__item"><a href="#" class="header__lang-link">En</a></li>
       </ul>
     </header>
-
     <main class="content">
-
-      <section class="lead padding-narrow">
+      <section class="lead content__section content__section_narrow">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p> 
         <img src="./images/lead-polka.jpg" alt="Девушка спит в поезде" class="lead__image">
         <p class="lead__caption">ваша полка — верхняя</p> 
       </section>
-
-      <section class="intro padding-narrow">
+      <section class="intro content__section content__section_narrow">
         <h2 class="intro__title">Чего мы там не видели?</h2>
         <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. 
           Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. 
@@ -44,8 +37,7 @@
           <li>Аэропортов <span class="intro__span-digit">241</span></li>
         </ul>
       </section>
-
-      <section class="photo-grid padding-wide" aria-label="Список изображений">
+      <section class="photo-grid content__section content__section_wide" aria-label="Список изображений">
         <ul class="photo-grid__list">
           <li class="photo-grid__item"><img src="./images/photo-grid-train.jpg" class="photo-grid__image" alt="окно поезда"></li>
           <li class="photo-grid__item"><img src="./images/photo-grid-atharva-tulsi.jpg" class="photo-grid__image" alt="горы и облака"></li>
@@ -61,13 +53,12 @@
           <li class="photo-grid__item"><img src="./images/photo-grid-ergaki.jpg" class="photo-grid__image" alt="горы в тумане"></li>
         </ul>
       </section>
-
-      <section class="places padding-narrow" aria-label="Список направлений">
+      <section class="places content__section content__section_narrow" aria-label="Список направлений">
         <article class="place places__item" aria-label="Куршская коса">
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="//park-kosa.ru" class="place__link transparency">park-kosa.ru</a>
+            <a href="//park-kosa.ru" class="place__link">park-kosa.ru</a>
           </div>
           <img src="./images/place-kosa.jpg" class="place__image" alt="берег с корнями">
           <div class="place__description">
@@ -78,12 +69,11 @@
               природы и запах стального, прохладного моря.</p>
           </div>
         </article>
-
         <article class="place places__item" aria-label="Кольский">
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="//yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link transparency">National Geographic</a>
+            <a href="//yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="place__link">National Geographic</a>
           </div>
           <img src="./images/place-kolsky.jpg" class="place__image" alt="горы в снегу">
           <div class="place__description">
@@ -96,12 +86,11 @@
               в Мурманск.</p>
           </div>
         </article>
-
         <article class="place places__item" aria-label="Алтай">
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="//www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link transparency">YouTube</a>
+            <a href="//www.youtube.com/watch?v=7ZEsoV7kWAQ" class="place__link">YouTube</a>
           </div>
           <img src="./images/place-altai.jpg" class="place__image" alt="горы алтая">
           <div class="place__description">
@@ -112,12 +101,11 @@
               По лесам Алтая бродят лоси, над хребтами летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского края.</p>
           </div>
         </article>
-
         <article class="place places__item" aria-label="Зимний Байкал">
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="//vk.com/baikalmile" class="place__link transparency">https://vk.com/baikalmile</a>
+            <a href="//vk.com/baikalmile" class="place__link">https://vk.com/baikalmile</a>
           </div>
           <img src="./images/place-winter-baikal.jpg" class="place__image" alt="лёд">
           <div class="place__description">
@@ -128,12 +116,11 @@
               В марте 2019 года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
           </div>
         </article>
-
         <article class="place places__item" aria-label="Карелия">
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">url</h3>
-            <a href="//vodlozero.ru/" class="place__link transparency">http://vodlozero.ru/</a>
+            <a href="//vodlozero.ru/" class="place__link">http://vodlozero.ru/</a>
           </div>
           <img src="./images/place-karelia.jpg" class="place__image" alt="река">
           <div class="place__description">
@@ -144,31 +131,26 @@
               в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
           </div>
         </article>
-
       </section>
-
-      <section class="cover padding-wide">
+      <section class="cover content__section content__section_wide">
         <a href="//stampsy.com/na-elektrichkakh-do-baikala" class="cover__link">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
-
     </main>
-
-    <footer class="footer padding-wide">
-      <ul class="footer__links">
-        <li class="footer__item"><a class="footer__link transparency" href="//yandex.ru/maps">Карты</a></li>
-        <li class="footer__item"><a class="footer__link transparency" href="//yandex.ru/pogoda">Погода</a></li>
-        <li class="footer__item"><a class="footer__link transparency" href="//rasp.yandex.ru">Расписание</a></li>
-        <li class="footer__item"><a class="footer__link transparency" href="//calendar.yandex.ru">Календарь</a></li>
-        <li class="footer__item"><a class="footer__link transparency" href="//travel.yandex.ru">Путешествия</a></li>
-      </ul>
+    <footer class="footer">
+      <nav>
+        <ul class="footer__links">
+          <li class="footer__item"><a class="footer__link" href="//yandex.ru/maps">Карты</a></li>
+          <li class="footer__item"><a class="footer__link" href="//yandex.ru/pogoda">Погода</a></li>
+          <li class="footer__item"><a class="footer__link" href="//rasp.yandex.ru">Расписание</a></li>
+          <li class="footer__item"><a class="footer__link" href="//calendar.yandex.ru">Календарь</a></li>
+          <li class="footer__item"><a class="footer__link" href="//travel.yandex.ru">Путешествия</a></li>
+        </ul>
+      </nav>
       <p class="footer__copyright">© 2020. Sergey Bezrukov</p>
     </footer>
-
   </div>
-
 </body>
-
 </html>
