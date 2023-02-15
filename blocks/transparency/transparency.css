@@ -1,13 +1,13 @@
 .transparency {
-    opacity: 1;
-  }
-  
+  opacity: 1;
+}
+
 .transparency:hover {
-    opacity: 0.8;
-    transition: 0.8s;
+  opacity: 0.8;
+  transition: 0.8s;
 }
 
 .transparency:not(:hover) {
-    opacity: 1;
-    transition: 0.8s;
+  opacity: 1;
+  transition: 0.8s;
 }
