@@ -1,7 +1,6 @@
 @import url(../vendor/fonts/Inter/font.css);
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/page/__container/page__container.css);
 @import url(../blocks/content/__section/_padding/content__section_padding_narrow.css);
 @import url(../blocks/content/__section/_padding/content__section_padding_wide.css);
 @import url(../blocks/header/header.css);
