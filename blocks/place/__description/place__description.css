@@ -7,15 +7,9 @@
 }
 
 @media screen and (max-width: 1279px) {
-<<<<<<< HEAD
-    .place__description {
-        max-width: 456px;
-    }
-=======
   .place__description {
     max-width: 456px;
   }
->>>>>>> gh-pages
 }
 
 @media screen and (max-width: 767px) {
