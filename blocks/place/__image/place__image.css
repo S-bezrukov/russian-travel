@@ -7,31 +7,10 @@
   display: block;
 }
 
-@media screen and (max-width: 1279px) {
+@media screen and (max-width: 1100px) {
   .place__image {
     max-width: 440px;
     min-width: 440px;
-  }
-}
-
-@media screen and (max-width: 1190px) {
-  .place__image {
-    max-width: 410px;
-    min-width: 410px;
-  }
-} 
-
-@media screen and (max-width: 1100px) {
-  .place__image {
-    max-width: 380px;
-    min-width: 380px;
-  }
-} 
-
-@media screen and (max-width: 1150px) {
-  .place__image {
-    max-width: 420px;
-    min-width: 420px;
   }
 } 
 
